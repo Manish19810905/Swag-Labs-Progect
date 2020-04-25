@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Swag Labs Test Automation Test Suite">
+
+	
+	
+	<listeners>
+       <listener class-name="com.swagLabs.qa.listeners.TestListener"/>
+  </listeners>
+	
+	
+	
+
+	<test name="Swag Labs Login Test Cases">
+		<classes>
+			<class name="com.swagLabs.qa.loginTest.TC_001_Login_Page_Logo_Test"></class>
+			<class name="com.swagLabs.qa.loginTest.TC_002_Login_Page_Title_Test"></class>
+			<class name="com.swagLabs.qa.loginTest.TC_003_Login_Test_With_Valid_User"></class>
+			<class name="com.swagLabs.qa.loginTest.TC004_Login_Test_With_Locked_User"></class>
+			<class name="com.swagLabs.qa.loginTest.TC005_Login_Test_Invalid_Pwd"></class>
+		</classes>
+	</test>
+</suite>

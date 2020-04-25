@@ -1,0 +1,43 @@
+Test Case 1
+Validate login page title
+----------------------------------------------------------------------------------------------------------------------------
+							Expected result					Actual result
+Test step 1- open chrome browser			chrome browser should open			user able to open chrome browser			
+Test step 2 - Enter URL "saucedemo.com/index.html"	opened Swag Labs application			user able to see Swag Labs application
+Test step 3 - validate page title is "Swag Labs"	Login page title should be "Swag Labs"  	user able to see login page title "Swag Labs"
+
+
+Test Case 2
+Validate Seag Labs logo on login page
+-------------------------------------------------------------------------------------------------------------------------------
+Test step 1- open chrome browser			chrome browser should open			user able to open chrome browser			
+Test step 2 - Enter URL "saucedemo.com/index.html"	opened Swag Labs application			user able to see Swag Labs application
+Test step 3 - validate Swag Labs logo in login page	Swag Labs logo will present at login page   	user able to see Swag labs logo in login page
+
+
+Test Case 3
+Verify user will be able to login with a valid username and valid password.
+-------------------------------------------------------------------------------------------------------------------------------
+Test step 1- open chrome browser				chrome browser should open			user able to open chrome browser			
+Test step 2 - Enter URL "saucedemo.com/index.html"		opened Swag Labs application			user able to see Swag Labs application
+Test step 3 - Enter input(correct)username and password 	User must successfully login to the web page	user able to login successfully and landed to Productspage
+	      on the respective fields
+
+
+Test Case 4 
+Verify user will be unable to login with a locked user
+-------------------------------------------------------------------------------------------------------------------------------
+Test step 1- open chrome browser				chrome browser should open			user able to open chrome browser			
+Test step 2 - Enter URL "saucedemo.com/index.html"		opened Swag Labs application			user able to see Swag Labs application
+Test step 3 - Enter input(locked)username and password 		User unable to login and see error massage 	user unable to login and see error massage
+	      on the respective fields
+
+
+Test Case 5
+Verify user will be unable to login with valid user and invalid password
+-------------------------------------------------------------------------------------------------------------------------------
+Test step 1- open chrome browser				chrome browser should open			user able to open chrome browser			
+Test step 2 - Enter URL "saucedemo.com/index.html"		opened Swag Labs application			user able to see Swag Labs application
+Test step 3 - Enter input(Valid)username and (invalid)password 	User unable to login and see error massage 	user unable to login and see error massage
+	      on the respective fields
+
